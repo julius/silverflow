@@ -1,7 +1,6 @@
 // !$*UTF8*$!
 {
 	0259C573FE90428111CA0C5A /* Project object */ = {
-		activeArchitecture = i386;
 		activeBuildConfigurationName = Release;
 		activeTarget = 8D1AC9600486D14A00FE50C9 /* SilverFlow */;
 		addToTargets = (
@@ -9,8 +8,8 @@
 		);
 		codeSenseManager = C6EC8D400DCF922100CC17C8 /* Code sense */;
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 233158708;
-			PBXWorkspaceStateSaveDate = 233158708;
+			PBXPerProjectTemplateStateSaveDate = 261018575;
+			PBXWorkspaceStateSaveDate = 261018575;
 		};
 		sourceControlManager = C6EC8D3F0DCF922100CC17C8 /* Source Control */;
 		userBuildSettings = {

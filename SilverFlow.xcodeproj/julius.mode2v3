@@ -442,8 +442,8 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>C61042C30DE5B855000ACEFC</string>
-				<string>C61042C40DE5B855000ACEFC</string>
+				<string>C6F1BF7E0F8ED3DE00824AB6</string>
+				<string>C6F1BF7F0F8ED3DE00824AB6</string>
 				<string>1C9437FD063B20B00039CFAC</string>
 				<string>1C9437FE063B20B00039CFAC</string>
 				<string>1C9437FF063B20B00039CFAC</string>
@@ -478,7 +478,7 @@
 	<integer>0</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>C6A893B60DD5E71F003BB86C</string>
+		<string>1C530D52069F1CE1000CFCEE</string>
 		<string>/Users/julius/Code/qs/SilverFlow/SilverFlow.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -696,7 +696,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D52069F1CE1000CFCEE</string>
-				<string>C6E418310DD87EE70080DB3F</string>
+				<string>C6F1BF800F8ED3DE00824AB6</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
