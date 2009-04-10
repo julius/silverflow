@@ -1,0 +1,209 @@
+// !$*UTF8*$!
+{
+	0259C573FE90428111CA0C5A /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Release;
+		activeTarget = 8D1AC9600486D14A00FE50C9 /* SilverFlow */;
+		addToTargets = (
+			8D1AC9600486D14A00FE50C9 /* SilverFlow */,
+		);
+		codeSenseManager = C6EC8D400DCF922100CC17C8 /* Code sense */;
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 233158708;
+			PBXWorkspaceStateSaveDate = 233158708;
+		};
+		sourceControlManager = C6EC8D3F0DCF922100CC17C8 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1AC9600486D14A00FE50C9 /* SilverFlow */ = {
+		activeExec = 0;
+	};
+	8D1AC9730486D14A00FE50C9 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 1260}}";
+			sepNavSelRange = "{2205, 0}";
+			sepNavVisRange = "{1364, 841}";
+			sepNavWindowFrame = "{{15, 134}, {820, 639}}";
+		};
+	};
+	C66203490DCFC61B00813710 /* SFCoverFlow.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 770}}";
+			sepNavSelRange = "{958, 0}";
+			sepNavVisRange = "{329, 635}";
+		};
+	};
+	C662034A0DCFC61B00813710 /* SFCoverFlow.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 2604}}";
+			sepNavSelRange = "{2377, 0}";
+			sepNavVisRange = "{1553, 1030}";
+			sepNavWindowFrame = "{{15, 134}, {820, 639}}";
+		};
+	};
+	C662034B0DCFC61B00813710 /* SFCFObjectManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 511}}";
+			sepNavSelRange = "{693, 0}";
+			sepNavVisRange = "{0, 699}";
+		};
+	};
+	C662034C0DCFC61B00813710 /* SFCFObjectManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 1358}}";
+			sepNavSelRange = "{2012, 5}";
+			sepNavVisRange = "{1915, 102}";
+		};
+	};
+	C662034D0DCFC61B00813710 /* SFCFObject.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 532}}";
+			sepNavSelRange = "{710, 51}";
+			sepNavVisRange = "{0, 767}";
+		};
+	};
+	C662034E0DCFC61B00813710 /* SFCFObject.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 2506}}";
+			sepNavSelRange = "{2983, 221}";
+			sepNavVisRange = "{3269, 1192}";
+			sepNavWindowFrame = "{{15, 134}, {820, 639}}";
+		};
+	};
+	C66203650DCFCB0700813710 /* SFResources.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 511}}";
+			sepNavSelRange = "{225, 0}";
+			sepNavVisRange = "{0, 282}";
+			sepNavWindowFrame = "{{38, 113}, {820, 639}}";
+		};
+	};
+	C66203660DCFCB0700813710 /* SFResources.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {896, 511}}";
+			sepNavSelRange = "{651, 0}";
+			sepNavVisRange = "{0, 656}";
+		};
+	};
+	C66209410DD12C6900813710 /* SFSelectorObject.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 511}}";
+			sepNavSelRange = "{578, 0}";
+			sepNavVisRange = "{0, 584}";
+		};
+	};
+	C66209420DD12C6900813710 /* SFSelectorObject.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 2856}}";
+			sepNavSelRange = "{3366, 0}";
+			sepNavVisRange = "{2517, 921}";
+		};
+	};
+	C6620BCE0DD208EA00813710 /* SFBackgroundView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 511}}";
+			sepNavSelRange = "{269, 0}";
+			sepNavVisRange = "{0, 274}";
+			sepNavWindowFrame = "{{21, 100}, {820, 639}}";
+		};
+	};
+	C6620BCF0DD208EA00813710 /* SFBackgroundView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {812, 686}}";
+			sepNavSelRange = "{209, 0}";
+			sepNavVisRange = "{0, 1244}";
+			sepNavWindowFrame = "{{38, 113}, {820, 639}}";
+		};
+	};
+	C6620C820DD231A600813710 /* CGSPrivate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {764, 1162}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1750, 1721}";
+			sepNavWindowFrame = "{{38, 113}, {820, 639}}";
+		};
+	};
+	C6EC8D3F0DCF922100CC17C8 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	C6EC8D400DCF922100CC17C8 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C6EC8D430DCF927500CC17C8 /* SFCoverFlowView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 511}}";
+			sepNavSelRange = "{757, 0}";
+			sepNavVisRange = "{0, 763}";
+			sepNavWindowFrame = "{{38, 113}, {820, 639}}";
+		};
+	};
+	C6EC8D440DCF927500CC17C8 /* SFCoverFlowView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 2436}}";
+			sepNavSelRange = "{5755, 0}";
+			sepNavVisRange = "{4656, 1262}";
+			sepNavWindowFrame = "{{38, 113}, {820, 639}}";
+		};
+	};
+	C6EC8DAC0DCFC35C00CC17C8 /* QSCollectingSearchObjectView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 511}}";
+			sepNavSelRange = "{267, 63}";
+			sepNavVisRange = "{0, 684}";
+			sepNavWindowFrame = "{{15, 134}, {820, 639}}";
+		};
+	};
+	C6EC8DB00DCFC39200CC17C8 /* SFCollectingSearchObjectView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 511}}";
+			sepNavSelRange = "{345, 0}";
+			sepNavVisRange = "{0, 543}";
+			sepNavWindowFrame = "{{61, 92}, {820, 639}}";
+		};
+	};
+	C6EC8DB10DCFC39200CC17C8 /* SFCollectingSearchObjectView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {806, 3134}}";
+			sepNavSelRange = "{1288, 96}";
+			sepNavVisRange = "{749, 1405}";
+		};
+	};
+	C6EC8DB30DCFC3AE00CC17C8 /* SFSearchObjectView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 511}}";
+			sepNavSelRange = "{302, 0}";
+			sepNavVisRange = "{0, 466}";
+			sepNavWindowFrame = "{{15, 134}, {820, 639}}";
+		};
+	};
+	C6EC8DB40DCFC3AE00CC17C8 /* SFSearchObjectView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 742}}";
+			sepNavSelRange = "{924, 0}";
+			sepNavVisRange = "{219, 1384}";
+			sepNavWindowFrame = "{{15, 134}, {820, 639}}";
+		};
+	};
+	E1EAB045068128A200774DFF /* SilverFlow.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{368, 105}\";\n        },\n                {\n            r = \"{7103, 33}\";\n        },\n                {\n            r = \"{7173, 90}\";\n        },\n                {\n            r = \"{7300, 90}\";\n        },\n                {\n            r = \"{7394, 140}\";\n        },\n                {\n            r = \"{7577, 42}\";\n        },\n                {\n            r = \"{7654, 35}\";\n        },\n                {\n            r = \"{7726, 36}\";\n        },\n                {\n            r = \"{7874, 73}\";\n        },\n                {\n            r = \"{8557, 153}\";\n        },\n                {\n            r = \"{8748, 33}\";\n        },\n                {\n            r = \"{8811, 34}\";\n        }\n    );\n    r = \"{0, 9037}\";\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1010, 3836}}";
+			sepNavSelRange = "{4766, 0}";
+			sepNavVisRange = "{3702, 1244}";
+			sepNavWindowFrame = "{{38, 113}, {820, 639}}";
+		};
+	};
+	E1EAB047068128A800774DFF /* SilverFlow.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 511}}";
+			sepNavSelRange = "{494, 0}";
+			sepNavVisRange = "{0, 736}";
+		};
+	};
+}

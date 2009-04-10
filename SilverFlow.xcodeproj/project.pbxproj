@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F35FF4007F9ACD90056051D /* QSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F35FF3C07F9ACD90056051D /* QSCore.framework */; };
+		7F35FF4207F9ACD90056051D /* QSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F35FF3E07F9ACD90056051D /* QSFoundation.framework */; };
+		8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92D38A0106425D02CA0E72 /* Cocoa.framework */; };
+		BB1A0E9C0BD588420049CB64 /* SilverFlow.nib in Resources */ = {isa = PBXBuildFile; fileRef = BB1A0E9B0BD588420049CB64 /* SilverFlow.nib */; };
+		BB79B8810C11A2AB002CF9B7 /* QSInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFA8E9D0816CCCA00A858CD /* QSInterface.framework */; };
+		BB79B8820C11A2B2002CF9B7 /* QSEffects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFA8E9C0816CCCA00A858CD /* QSEffects.framework */; };
+		BB79B99D0C11A9B6002CF9B7 /* SilverFlowPrefPane.nib in Resources */ = {isa = PBXBuildFile; fileRef = BB79B99C0C11A9B6002CF9B7 /* SilverFlowPrefPane.nib */; };
+		C662034F0DCFC61B00813710 /* SFCoverFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = C662034A0DCFC61B00813710 /* SFCoverFlow.m */; };
+		C66203500DCFC61B00813710 /* SFCFObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C662034C0DCFC61B00813710 /* SFCFObjectManager.m */; };
+		C66203510DCFC61B00813710 /* SFCFObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C662034E0DCFC61B00813710 /* SFCFObject.m */; };
+		C66203670DCFCB0700813710 /* SFResources.m in Sources */ = {isa = PBXBuildFile; fileRef = C66203660DCFCB0700813710 /* SFResources.m */; };
+		C662046B0DCFD6F600813710 /* SFStandart.png in Resources */ = {isa = PBXBuildFile; fileRef = C662046A0DCFD6F600813710 /* SFStandart.png */; };
+		C66209430DD12C6900813710 /* SFSelectorObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C66209420DD12C6900813710 /* SFSelectorObject.m */; };
+		C6620BD00DD208EA00813710 /* SFBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6620BCF0DD208EA00813710 /* SFBackgroundView.m */; };
+		C6620BE40DD2098800813710 /* Drop Down Arrow.tif in Resources */ = {isa = PBXBuildFile; fileRef = C6620BE30DD2098800813710 /* Drop Down Arrow.tif */; };
+		C6EC8D450DCF927500CC17C8 /* SFCoverFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EC8D440DCF927500CC17C8 /* SFCoverFlowView.m */; };
+		C6EC8D830DCFC0EB00CC17C8 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6EC8D820DCFC0EB00CC17C8 /* Quartz.framework */; };
+		C6EC8D9A0DCFC18B00CC17C8 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6EC8D990DCFC18B00CC17C8 /* AppKit.framework */; };
+		C6EC8DAF0DCFC35C00CC17C8 /* QSCollectingSearchObjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EC8DAD0DCFC35C00CC17C8 /* QSCollectingSearchObjectView.m */; };
+		C6EC8DB20DCFC39200CC17C8 /* SFCollectingSearchObjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EC8DB10DCFC39200CC17C8 /* SFCollectingSearchObjectView.m */; };
+		C6EC8DB50DCFC3AE00CC17C8 /* SFSearchObjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EC8DB40DCFC3AE00CC17C8 /* SFSearchObjectView.m */; };
+		E1EAB046068128A200774DFF /* SilverFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EAB045068128A200774DFF /* SilverFlow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32DBCF980370C29C00C91783 /* SilverFlow_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SilverFlow_Prefix.pch; sourceTree = "<group>"; };
+		7F35FF3C07F9ACD90056051D /* QSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSCore.framework; sourceTree = QSFrameworks; };
+		7F35FF3D07F9ACD90056051D /* QSEffects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSEffects.framework; sourceTree = QSFrameworks; };
+		7F35FF3E07F9ACD90056051D /* QSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSFoundation.framework; sourceTree = QSFrameworks; };
+		7F35FF3F07F9ACD90056051D /* QSInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSInterface.framework; sourceTree = QSFrameworks; };
+		7FFA8E9C0816CCCA00A858CD /* QSEffects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSEffects.framework; sourceTree = QSFrameworks; };
+		7FFA8E9D0816CCCA00A858CD /* QSInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSInterface.framework; sourceTree = QSFrameworks; };
+		8D1AC9730486D14A00FE50C9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1AC9740486D14A00FE50C9 /* SilverFlow.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilverFlow.qsplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1A0E9B0BD588420049CB64 /* SilverFlow.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = SilverFlow.nib; sourceTree = "<group>"; };
+		BB79B99C0C11A9B6002CF9B7 /* SilverFlowPrefPane.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = SilverFlowPrefPane.nib; sourceTree = "<group>"; };
+		C66203490DCFC61B00813710 /* SFCoverFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFCoverFlow.h; sourceTree = "<group>"; };
+		C662034A0DCFC61B00813710 /* SFCoverFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFCoverFlow.m; sourceTree = "<group>"; };
+		C662034B0DCFC61B00813710 /* SFCFObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFCFObjectManager.h; sourceTree = "<group>"; };
+		C662034C0DCFC61B00813710 /* SFCFObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFCFObjectManager.m; sourceTree = "<group>"; };
+		C662034D0DCFC61B00813710 /* SFCFObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFCFObject.h; sourceTree = "<group>"; };
+		C662034E0DCFC61B00813710 /* SFCFObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFCFObject.m; sourceTree = "<group>"; };
+		C66203650DCFCB0700813710 /* SFResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFResources.h; sourceTree = "<group>"; };
+		C66203660DCFCB0700813710 /* SFResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFResources.m; sourceTree = "<group>"; };
+		C662046A0DCFD6F600813710 /* SFStandart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SFStandart.png; sourceTree = "<group>"; };
+		C66209410DD12C6900813710 /* SFSelectorObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSelectorObject.h; sourceTree = "<group>"; };
+		C66209420DD12C6900813710 /* SFSelectorObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFSelectorObject.m; sourceTree = "<group>"; };
+		C6620BCE0DD208EA00813710 /* SFBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBackgroundView.h; sourceTree = "<group>"; };
+		C6620BCF0DD208EA00813710 /* SFBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFBackgroundView.m; sourceTree = "<group>"; };
+		C6620BE30DD2098800813710 /* Drop Down Arrow.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Drop Down Arrow.tif"; sourceTree = "<group>"; };
+		C6620C820DD231A600813710 /* CGSPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSPrivate.h; sourceTree = "<group>"; };
+		C6EC8D430DCF927500CC17C8 /* SFCoverFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFCoverFlowView.h; sourceTree = "<group>"; };
+		C6EC8D440DCF927500CC17C8 /* SFCoverFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFCoverFlowView.m; sourceTree = "<group>"; };
+		C6EC8D820DCFC0EB00CC17C8 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		C6EC8D990DCFC18B00CC17C8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		C6EC8DAC0DCFC35C00CC17C8 /* QSCollectingSearchObjectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSCollectingSearchObjectView.h; sourceTree = "<group>"; };
+		C6EC8DAD0DCFC35C00CC17C8 /* QSCollectingSearchObjectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSCollectingSearchObjectView.m; sourceTree = "<group>"; };
+		C6EC8DB00DCFC39200CC17C8 /* SFCollectingSearchObjectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFCollectingSearchObjectView.h; sourceTree = "<group>"; };
+		C6EC8DB10DCFC39200CC17C8 /* SFCollectingSearchObjectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFCollectingSearchObjectView.m; sourceTree = "<group>"; };
+		C6EC8DB30DCFC3AE00CC17C8 /* SFSearchObjectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSearchObjectView.h; sourceTree = "<group>"; };
+		C6EC8DB40DCFC3AE00CC17C8 /* SFSearchObjectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFSearchObjectView.m; sourceTree = "<group>"; };
+		DD92D38A0106425D02CA0E72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		E1EAB045068128A200774DFF /* SilverFlow.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SilverFlow.m; sourceTree = "<group>"; };
+		E1EAB047068128A800774DFF /* SilverFlow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SilverFlow.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D1AC96E0486D14A00FE50C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */,
+				7F35FF4007F9ACD90056051D /* QSCore.framework in Frameworks */,
+				7F35FF4207F9ACD90056051D /* QSFoundation.framework in Frameworks */,
+				BB79B8810C11A2AB002CF9B7 /* QSInterface.framework in Frameworks */,
+				BB79B8820C11A2B2002CF9B7 /* QSEffects.framework in Frameworks */,
+				C6EC8D830DCFC0EB00CC17C8 /* Quartz.framework in Frameworks */,
+				C6EC8D9A0DCFC18B00CC17C8 /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0259C574FE90428111CA0C5A /* SilverFlow */ = {
+			isa = PBXGroup;
+			children = (
+				C66203480DCFC61B00813710 /* CoverFlow */,
+				C6EC8DA90DCFC35C00CC17C8 /* From Quicksilver */,
+				32DBCF9E0370C38000C91783 /* Classes */,
+				32DBCF9F0370C38200C91783 /* Other Sources */,
+				0259C582FE90428111CA0C5A /* Resources */,
+				1ED78706FE9D4A0611CA0C5A /* Products */,
+				2E58F364FFB232C311CA0CBA /* Frameworks */,
+			);
+			name = SilverFlow;
+			sourceTree = "<group>";
+		};
+		0259C582FE90428111CA0C5A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C6620BE30DD2098800813710 /* Drop Down Arrow.tif */,
+				C662046A0DCFD6F600813710 /* SFStandart.png */,
+				BB79B99C0C11A9B6002CF9B7 /* SilverFlowPrefPane.nib */,
+				BB1A0E9B0BD588420049CB64 /* SilverFlow.nib */,
+				8D1AC9730486D14A00FE50C9 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1ED78706FE9D4A0611CA0C5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1AC9740486D14A00FE50C9 /* SilverFlow.qsplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E58F364FFB232C311CA0CBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6EC8D990DCFC18B00CC17C8 /* AppKit.framework */,
+				C6EC8D820DCFC0EB00CC17C8 /* Quartz.framework */,
+				DD92D38A0106425D02CA0E72 /* Cocoa.framework */,
+				7F35FF3C07F9ACD90056051D /* QSCore.framework */,
+				7F35FF3E07F9ACD90056051D /* QSFoundation.framework */,
+				7FFA8E9C0816CCCA00A858CD /* QSEffects.framework */,
+				7FFA8E9D0816CCCA00A858CD /* QSInterface.framework */,
+				7FC20C8107FB741700FDD3CA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32DBCF9E0370C38000C91783 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C6620BCE0DD208EA00813710 /* SFBackgroundView.h */,
+				C6620BCF0DD208EA00813710 /* SFBackgroundView.m */,
+				E1EAB047068128A800774DFF /* SilverFlow.h */,
+				E1EAB045068128A200774DFF /* SilverFlow.m */,
+				C6EC8D430DCF927500CC17C8 /* SFCoverFlowView.h */,
+				C6EC8D440DCF927500CC17C8 /* SFCoverFlowView.m */,
+				C6EC8DB00DCFC39200CC17C8 /* SFCollectingSearchObjectView.h */,
+				C6EC8DB10DCFC39200CC17C8 /* SFCollectingSearchObjectView.m */,
+				C6EC8DB30DCFC3AE00CC17C8 /* SFSearchObjectView.h */,
+				C6EC8DB40DCFC3AE00CC17C8 /* SFSearchObjectView.m */,
+				C66203650DCFCB0700813710 /* SFResources.h */,
+				C66203660DCFCB0700813710 /* SFResources.m */,
+				C66209410DD12C6900813710 /* SFSelectorObject.h */,
+				C66209420DD12C6900813710 /* SFSelectorObject.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32DBCF9F0370C38200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF980370C29C00C91783 /* SilverFlow_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		7FC20C8107FB741700FDD3CA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F35FF3D07F9ACD90056051D /* QSEffects.framework */,
+				7F35FF3F07F9ACD90056051D /* QSInterface.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C66203480DCFC61B00813710 /* CoverFlow */ = {
+			isa = PBXGroup;
+			children = (
+				C66203490DCFC61B00813710 /* SFCoverFlow.h */,
+				C662034A0DCFC61B00813710 /* SFCoverFlow.m */,
+				C662034B0DCFC61B00813710 /* SFCFObjectManager.h */,
+				C662034C0DCFC61B00813710 /* SFCFObjectManager.m */,
+				C662034D0DCFC61B00813710 /* SFCFObject.h */,
+				C662034E0DCFC61B00813710 /* SFCFObject.m */,
+			);
+			name = CoverFlow;
+			sourceTree = "<group>";
+		};
+		C6EC8DA90DCFC35C00CC17C8 /* From Quicksilver */ = {
+			isa = PBXGroup;
+			children = (
+				C6620C820DD231A600813710 /* CGSPrivate.h */,
+				C6EC8DAC0DCFC35C00CC17C8 /* QSCollectingSearchObjectView.h */,
+				C6EC8DAD0DCFC35C00CC17C8 /* QSCollectingSearchObjectView.m */,
+			);
+			name = "From Quicksilver";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1AC9600486D14A00FE50C9 /* SilverFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F6B3EEB085CE8DF000735A8 /* Build configuration list for PBXNativeTarget "SilverFlow" */;
+			buildPhases = (
+				8D1AC9660486D14A00FE50C9 /* Resources */,
+				8D1AC96A0486D14A00FE50C9 /* Sources */,
+				8D1AC96E0486D14A00FE50C9 /* Frameworks */,
+				E1022B2806B3475D00299BEC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SilverFlow;
+			productInstallPath = "$(HOME)/Developer/Palettes";
+			productName = SilverFlow;
+			productReference = 8D1AC9740486D14A00FE50C9 /* SilverFlow.qsplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0259C573FE90428111CA0C5A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 7F6B3EEF085CE8DF000735A8 /* Build configuration list for PBXProject "SilverFlow" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 0259C574FE90428111CA0C5A /* SilverFlow */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1AC9600486D14A00FE50C9 /* SilverFlow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1AC9660486D14A00FE50C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1A0E9C0BD588420049CB64 /* SilverFlow.nib in Resources */,
+				BB79B99D0C11A9B6002CF9B7 /* SilverFlowPrefPane.nib in Resources */,
+				C662046B0DCFD6F600813710 /* SFStandart.png in Resources */,
+				C6620BE40DD2098800813710 /* Drop Down Arrow.tif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E1022B2806B3475D00299BEC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$SRCROOT/bltrversion $INFOPLIST_FILE";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D1AC96A0486D14A00FE50C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1EAB046068128A200774DFF /* SilverFlow.m in Sources */,
+				C6EC8D450DCF927500CC17C8 /* SFCoverFlowView.m in Sources */,
+				C6EC8DAF0DCFC35C00CC17C8 /* QSCollectingSearchObjectView.m in Sources */,
+				C6EC8DB20DCFC39200CC17C8 /* SFCollectingSearchObjectView.m in Sources */,
+				C6EC8DB50DCFC3AE00CC17C8 /* SFSearchObjectView.m in Sources */,
+				C662034F0DCFC61B00813710 /* SFCoverFlow.m in Sources */,
+				C66203500DCFC61B00813710 /* SFCFObjectManager.m in Sources */,
+				C66203510DCFC61B00813710 /* SFCFObject.m in Sources */,
+				C66203670DCFCB0700813710 /* SFResources.m in Sources */,
+				C66209430DD12C6900813710 /* SFSelectorObject.m in Sources */,
+				C6620BD00DD208EA00813710 /* SFBackgroundView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7F6B3EEC085CE8DF000735A8 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(QSFrameworks)";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SilverFlow_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				OTHER_LDFLAGS = "-bundle";
+				PRODUCT_NAME = SilverFlow;
+				WRAPPER_EXTENSION = qsplugin;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		7F6B3EED085CE8DF000735A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(QSFrameworks)";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SilverFlow_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				OTHER_LDFLAGS = "-bundle";
+				PRODUCT_NAME = SilverFlow;
+				WRAPPER_EXTENSION = qsplugin;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		7F6B3EF0085CE8DF000735A8 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Development;
+		};
+		7F6B3EF1085CE8DF000735A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_MODEL_TUNING = G5;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F6B3EEB085CE8DF000735A8 /* Build configuration list for PBXNativeTarget "SilverFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F6B3EEC085CE8DF000735A8 /* Development */,
+				7F6B3EED085CE8DF000735A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F6B3EEF085CE8DF000735A8 /* Build configuration list for PBXProject "SilverFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F6B3EF0085CE8DF000735A8 /* Development */,
+				7F6B3EF1085CE8DF000735A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0259C573FE90428111CA0C5A /* Project object */;
+}

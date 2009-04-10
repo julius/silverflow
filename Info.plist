@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>SilverFlow</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.blacktree.Quicksilver.SilverFlow</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>SilverFlow</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleVersion</key>
+	<string>27B</string>
+	<key>QSDefaultsTemplate</key>
+	<dict>
+		<key>interface.bindingname</key>
+		<string>value</string>
+		<key>interface.bindingname2</key>
+		<string>value</string>
+	</dict>
+	<key>QSPlugIn</key>
+	<dict>
+		<key>author</key>
+		<string>Julius Eckert</string>
+		<key>categories</key>
+		<array>
+			<string>Interfaces</string>
+		</array>
+		<key>description</key>
+		<string></string>
+		<key>extendedDescription</key>
+		<string></string>
+		<key>icon</key>
+		<string></string>
+		<key>qsversion</key>
+		<string>29CC</string>
+		<key>relatedBundles </key>
+		<array/>
+	</dict>
+	<key>QSRegistration</key>
+	<dict>
+		<key>QSCommandInterfaceControllers</key>
+		<dict>
+			<key>SilverFlow</key>
+			<string>SilverFlow</string>
+		</dict>
+		<key>QSPreferencePanesTemplate</key>
+		<dict>
+			<key>SilverFlowPrefPane</key>
+			<dict>
+				<key>class</key>
+				<string>QSPreferencePane</string>
+				<key>description</key>
+				<string>SilverFlow interface preferences</string>
+				<key>icon</key>
+				<string></string>
+				<key>name</key>
+				<string>SilverFlow</string>
+				<key>nibBundle</key>
+				<string>com.blacktree.Quicksilver.SilverFlow</string>
+				<key>nibName</key>
+				<string>SilverFlowPrefPane</string>
+				<key>type</key>
+				<string>hidden</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>QSRequirements</key>
+	<dict>
+		<key>version</key>
+		<string>3779</string>
+	</dict>
+	<key>QSResourceAdditions</key>
+	<dict>
+		<key>defaultAction</key>
+		<dict>
+			<key>bundle</key>
+			<string>com.blacktree.Quicksilver.SilverFlow</string>
+			<key>resource</key>
+			<string>defaultAction.png</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
