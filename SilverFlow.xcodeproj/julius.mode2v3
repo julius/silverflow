@@ -269,17 +269,33 @@
 										<string>32DBCF9F0370C38200C91783</string>
 										<string>0259C582FE90428111CA0C5A</string>
 										<string>1ED78706FE9D4A0611CA0C5A</string>
+										<string>2E58F364FFB232C311CA0CBA</string>
 									</array>
 									<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 									<array>
 										<array>
-											<integer>7</integer>
-											<integer>1</integer>
+											<integer>38</integer>
+											<integer>37</integer>
+											<integer>0</integer>
+										</array>
+										<array>
+											<integer>39</integer>
+											<integer>37</integer>
+											<integer>0</integer>
+										</array>
+										<array>
+											<integer>40</integer>
+											<integer>37</integer>
+											<integer>0</integer>
+										</array>
+										<array>
+											<integer>41</integer>
+											<integer>37</integer>
 											<integer>0</integer>
 										</array>
 									</array>
 									<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-									<string>{{0, 34}, {329, 447}}</string>
+									<string>{{0, 267}, {329, 447}}</string>
 								</dict>
 								<key>PBXTopSmartGroupGIDs</key>
 								<array/>
@@ -442,8 +458,8 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>C6F1BF7E0F8ED3DE00824AB6</string>
-				<string>C6F1BF7F0F8ED3DE00824AB6</string>
+				<string>C63BD8D90FC023A8001D4627</string>
+				<string>C63BD8DA0FC023A8001D4627</string>
 				<string>1C9437FD063B20B00039CFAC</string>
 				<string>1C9437FE063B20B00039CFAC</string>
 				<string>1C9437FF063B20B00039CFAC</string>
@@ -696,7 +712,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D52069F1CE1000CFCEE</string>
-				<string>C6F1BF800F8ED3DE00824AB6</string>
+				<string>C63BD8DB0FC023A8001D4627</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

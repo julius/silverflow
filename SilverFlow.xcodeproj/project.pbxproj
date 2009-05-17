@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7F35FF4007F9ACD90056051D /* QSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F35FF3C07F9ACD90056051D /* QSCore.framework */; };
-		7F35FF4207F9ACD90056051D /* QSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F35FF3E07F9ACD90056051D /* QSFoundation.framework */; };
 		8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92D38A0106425D02CA0E72 /* Cocoa.framework */; };
 		BB1A0E9C0BD588420049CB64 /* SilverFlow.nib in Resources */ = {isa = PBXBuildFile; fileRef = BB1A0E9B0BD588420049CB64 /* SilverFlow.nib */; };
-		BB79B8810C11A2AB002CF9B7 /* QSInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFA8E9D0816CCCA00A858CD /* QSInterface.framework */; };
-		BB79B8820C11A2B2002CF9B7 /* QSEffects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFA8E9C0816CCCA00A858CD /* QSEffects.framework */; };
 		BB79B99D0C11A9B6002CF9B7 /* SilverFlowPrefPane.nib in Resources */ = {isa = PBXBuildFile; fileRef = BB79B99C0C11A9B6002CF9B7 /* SilverFlowPrefPane.nib */; };
+		C63BD8C90FC0237F001D4627 /* QSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63BD8C50FC0237F001D4627 /* QSCore.framework */; };
+		C63BD8CA0FC0237F001D4627 /* QSEffects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63BD8C60FC0237F001D4627 /* QSEffects.framework */; };
+		C63BD8CB0FC0237F001D4627 /* QSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63BD8C70FC0237F001D4627 /* QSFoundation.framework */; };
+		C63BD8CC0FC0237F001D4627 /* QSInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63BD8C80FC0237F001D4627 /* QSInterface.framework */; };
 		C662034F0DCFC61B00813710 /* SFCoverFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = C662034A0DCFC61B00813710 /* SFCoverFlow.m */; };
 		C66203500DCFC61B00813710 /* SFCFObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C662034C0DCFC61B00813710 /* SFCFObjectManager.m */; };
 		C66203510DCFC61B00813710 /* SFCFObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C662034E0DCFC61B00813710 /* SFCFObject.m */; };
@@ -33,16 +33,16 @@
 
 /* Begin PBXFileReference section */
 		32DBCF980370C29C00C91783 /* SilverFlow_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SilverFlow_Prefix.pch; sourceTree = "<group>"; };
-		7F35FF3C07F9ACD90056051D /* QSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSCore.framework; sourceTree = QSFrameworks; };
 		7F35FF3D07F9ACD90056051D /* QSEffects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSEffects.framework; sourceTree = QSFrameworks; };
-		7F35FF3E07F9ACD90056051D /* QSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSFoundation.framework; sourceTree = QSFrameworks; };
 		7F35FF3F07F9ACD90056051D /* QSInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSInterface.framework; sourceTree = QSFrameworks; };
-		7FFA8E9C0816CCCA00A858CD /* QSEffects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSEffects.framework; sourceTree = QSFrameworks; };
-		7FFA8E9D0816CCCA00A858CD /* QSInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSInterface.framework; sourceTree = QSFrameworks; };
 		8D1AC9730486D14A00FE50C9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1AC9740486D14A00FE50C9 /* SilverFlow.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilverFlow.qsplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB1A0E9B0BD588420049CB64 /* SilverFlow.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = SilverFlow.nib; sourceTree = "<group>"; };
 		BB79B99C0C11A9B6002CF9B7 /* SilverFlowPrefPane.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = SilverFlowPrefPane.nib; sourceTree = "<group>"; };
+		C63BD8C50FC0237F001D4627 /* QSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSCore.framework; path = frameworks/QSCore.framework; sourceTree = "<group>"; };
+		C63BD8C60FC0237F001D4627 /* QSEffects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSEffects.framework; path = frameworks/QSEffects.framework; sourceTree = "<group>"; };
+		C63BD8C70FC0237F001D4627 /* QSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSFoundation.framework; path = frameworks/QSFoundation.framework; sourceTree = "<group>"; };
+		C63BD8C80FC0237F001D4627 /* QSInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSInterface.framework; path = frameworks/QSInterface.framework; sourceTree = "<group>"; };
 		C66203490DCFC61B00813710 /* SFCoverFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFCoverFlow.h; sourceTree = "<group>"; };
 		C662034A0DCFC61B00813710 /* SFCoverFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFCoverFlow.m; sourceTree = "<group>"; };
 		C662034B0DCFC61B00813710 /* SFCFObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFCFObjectManager.h; sourceTree = "<group>"; };
@@ -79,12 +79,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */,
-				7F35FF4007F9ACD90056051D /* QSCore.framework in Frameworks */,
-				7F35FF4207F9ACD90056051D /* QSFoundation.framework in Frameworks */,
-				BB79B8810C11A2AB002CF9B7 /* QSInterface.framework in Frameworks */,
-				BB79B8820C11A2B2002CF9B7 /* QSEffects.framework in Frameworks */,
 				C6EC8D830DCFC0EB00CC17C8 /* Quartz.framework in Frameworks */,
 				C6EC8D9A0DCFC18B00CC17C8 /* AppKit.framework in Frameworks */,
+				C63BD8C90FC0237F001D4627 /* QSCore.framework in Frameworks */,
+				C63BD8CA0FC0237F001D4627 /* QSEffects.framework in Frameworks */,
+				C63BD8CB0FC0237F001D4627 /* QSFoundation.framework in Frameworks */,
+				C63BD8CC0FC0237F001D4627 /* QSInterface.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,13 +128,13 @@
 		2E58F364FFB232C311CA0CBA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C63BD8C50FC0237F001D4627 /* QSCore.framework */,
+				C63BD8C60FC0237F001D4627 /* QSEffects.framework */,
+				C63BD8C70FC0237F001D4627 /* QSFoundation.framework */,
+				C63BD8C80FC0237F001D4627 /* QSInterface.framework */,
 				C6EC8D990DCFC18B00CC17C8 /* AppKit.framework */,
 				C6EC8D820DCFC0EB00CC17C8 /* Quartz.framework */,
 				DD92D38A0106425D02CA0E72 /* Cocoa.framework */,
-				7F35FF3C07F9ACD90056051D /* QSCore.framework */,
-				7F35FF3E07F9ACD90056051D /* QSFoundation.framework */,
-				7FFA8E9C0816CCCA00A858CD /* QSEffects.framework */,
-				7FFA8E9D0816CCCA00A858CD /* QSInterface.framework */,
 				7FC20C8107FB741700FDD3CA /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -300,7 +300,11 @@
 					i386,
 				);
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(QSFrameworks)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(QSFrameworks)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/frameworks\"";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -323,7 +327,11 @@
 					i386,
 				);
 				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(QSFrameworks)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(QSFrameworks)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/frameworks\"";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

@@ -8,8 +8,8 @@
 		);
 		codeSenseManager = C6EC8D400DCF922100CC17C8 /* Code sense */;
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 261018575;
-			PBXWorkspaceStateSaveDate = 261018575;
+			PBXPerProjectTemplateStateSaveDate = 264250214;
+			PBXWorkspaceStateSaveDate = 264250214;
 		};
 		sourceControlManager = C6EC8D3F0DCF922100CC17C8 /* Source Control */;
 		userBuildSettings = {
